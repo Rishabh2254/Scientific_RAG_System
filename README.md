@@ -38,20 +38,29 @@ A **Domain-Specific Scientific Literature RAG (Retrieval-Augmented Generation) S
 
 ## 🚀 Quick Start
 
-### 1. Clone and Setup
-```bash
-git clone <your-repo-url>
-cd scientific-rag
-python setup.py
-```
+### Option 1: Deploy on Streamlit Cloud (Recommended)
+1. **Go to [Streamlit Cloud](https://share.streamlit.io)**
+2. **Sign up and connect your GitHub account**
+3. **Deploy your app**:
+   - Repository: `Rishabh2254/Scientific_RAG_System`
+   - Branch: `main`
+   - Main file: `app/app.py`
+4. **Configure secrets** (see [STREAMLIT_DEPLOYMENT.md](STREAMLIT_DEPLOYMENT.md))
+5. **Access your live app** at the provided URL
 
-### 2. Run the Web Application
+### Option 2: Local Development
 ```bash
+# 1. Clone the repository
+git clone https://github.com/Rishabh2254/Scientific_RAG_System.git
+cd Scientific_RAG_System
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the web application
 streamlit run app/app.py
-```
 
-### 3. Test the Complete Pipeline
-```bash
+# 4. Test the complete pipeline
 python test_complete_pipeline.py
 ```
 
@@ -299,5 +308,6 @@ The Scientific RAG System is now fully operational with:
 - ✅ Production-ready code
 
 **Ready for deployment and use!** 🚀
-#   S c i e n t i f i c _ R A G _ S y s t e m  
+#   S c i e n t i f i c _ R A G _ S y s t e m 
+ 
  
