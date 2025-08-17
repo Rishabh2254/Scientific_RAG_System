@@ -1,0 +1,19 @@
+# Scientific RAG System Environment Variables
+
+# Hugging Face Token (Required for accessing models)
+# Get your token from: https://huggingface.co/settings/tokens
+HUGGINGFACE_TOKEN=your_huggingface_token_here
+
+# Optional: Set device for model inference
+# DEVICE=cpu  # or cuda if you have GPU support
+
+# Optional: Set model paths for local models
+# EMBEDDING_MODEL_PATH=./models/embedding_model
+# GENERATION_MODEL_PATH=./models/generation_model
+
+# Optional: ChromaDB settings
+# CHROMA_PERSIST_DIRECTORY=./chroma_db
+# CHROMA_COLLECTION_NAME=scientific_papers
+
+# Optional: Logging level
+# LOG_LEVEL=INFO  # DEBUG, INFO, WARNING, ERROR
